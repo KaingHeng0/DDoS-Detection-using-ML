@@ -18,8 +18,8 @@ if uploaded_file is not None:
 
     # Step 3: Load trained models
     try:
-        rf_model = load('/Users/kaingheng/Desktop/Github/random_forest_model.joblib')
-        xgb_model = load('/Users/kaingheng/Desktop/Github/xgboost_model.joblib')
+        rf_model = load("/Change to your model's path, random_forest_model.joblib")
+        xgb_model = load("/Change to your model's path, xgboost_model.joblib")
     except Exception as e:
         st.error("Error loading models. Ensure model files are in the specified directory.")
         st.stop()
