@@ -39,10 +39,12 @@ To set up the project, follow these steps:
    cd DDoS-Detection-using-ML
 
 2. **Install Dependencies:**
-pip install -
-r requirements.txt
-or
-pip3 install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   or
+   pip3 install -r requirements.txt
 
- 3. **Install Dependencies:**
-python3 -m streamlit run gui_project.py
+
+ 4. **Install Dependencies:**
+   ```bash
+   python3 -m streamlit run gui_project.py
